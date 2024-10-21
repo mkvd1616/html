@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+
+    }
+
+    .rating {
+        width: 80px;
+        height: 10px;
+    }
+
+    table {
+        width: 600px;
+        height:10px;
+        border-collapse: collapse;
+        border-radius: 15px;
+        overflow: hidden;
+        border: 1px solid black;
+
+    }
+
+    th {
+        width: 20px;
+        height: 70px;
+        background-color: rgb(2, 147, 126);
+        color: rgb(255, 255, 255);
+
+    }
+
+    td {
+        background-color: white;
+    }
+
+    thead {
+        background-color: rgb(255, 255, 255);
+    }
+
+    tbody {
+        font-weight: normal;
+    }
+
+    td {
+        height: 70px;
+        vertical-align: center;
+    }
+
+    tr {
+        height: 70px;
+        border-bottom: 1px solid rgb(182, 182, 182);
+    }
+
+    .green td {
+        height: 70px;
+        font-weight: bold;
+        color: rgb(2, 147, 126);
+        background-color: lightgrey;
+    }
+    .nick td{
+        height: 70px;
+        border-bottom: 8px solid rgb(2, 147, 126);
+    }
+</style>
+
+<body>
+    <div class="rating">
+        <table>
+            <thead>
+                <tr>
+                    <th>Rank</th>
+                    <th>Name</th>
+                    <th>Points</th>
+                    <th>Team</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Domenic</td>
+                    <td>88,110</td>
+                    <td>dcode</td>
+                </tr>
+                <tr class="green">
+                    <td>2</td>
+                    <td>Sally</td>
+                    <td>72,400</td>
+                    <td>Student</td>
+                </tr>
+                <tr class="nick">
+                    <td>3</td>
+                    <td>Nick</td>
+                    <td>52,300</td>
+                    <td>dcode</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+
+</html>

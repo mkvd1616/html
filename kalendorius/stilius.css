@@ -1,0 +1,49 @@
+body{
+    /*Srifto priskyrimas*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th{
+    background-color: black;
+    color: aliceblue;
+}
+td{
+    background-color: rgb(255, 255, 255);
+}
+/*.week-days{
+    background-color: beige;
+
+}
+html body table thead tr td{
+    background-color: bisque;
+}
+    */
+
+thead{
+    background-color: rgb(102, 34, 34);
+    width: 30px;
+    height: 50px;
+}
+
+tbody{
+    font-weight: bold;
+}
+
+td{
+    height: 50px;
+    /*vertikalaus lygiavimo nustatymas*/
+    /*i virsu*/
+    /*per centrra- center*/
+    /*i apacia - bottom*/ 
+    vertical-align: top;
+}
+.weekend{
+    color: aquamarine;
+
+}
