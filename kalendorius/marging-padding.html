@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .blue{
+            background-color: blueviolet;
+        }
+        .margin-box{
+        width: 200px;
+        height: 200px;
+        background-color: beige;
+        margin: 50px;
+        }
+        .margin-bottom-30{
+            /*nurodomas atsitraukimas is visu keturiu krastu*/
+            margin: 30px;
+            /*norint nurodyti atsistumima is vienos puses naudojamos variacijos*/
+      margin-bottom: 50px;
+      }
+      .margin-variations{
+        width: 200px;
+        height: 200px;
+        background-color: aqua;
+        /*Bendrine reiksme visoms keturioms kryptims, top, left,right,bottom*/
+        /*Jeigu norim atitraukti dezute per:
+        20px is virsaus
+        30px is desines
+        60px is apacios
+        100px is kaires
+        */
+        margin:20 30 60 100;
+
+        /*Jeigu norime atitraukti blokeli
+        per 30px is virsaus
+        50px is kaires ir desines
+        60 is apacios
+        */
+        margin: 30px 50px 60px;
+
+        /*Jeigu norime atitraukti blokeli per
+        50px is virsaus ir apacios
+        100px is kaires ir desines
+        */
+        margin: 50px 100px;
+
+        margin: 50px;
+        margin-bottom: 100px;
+        /**/
+        margin: 0 auto;
+
+      }
+
+      .padding-box{
+        width: 200px;
+        height:200px ;
+        background-color:violet;
+        /*Padding savybei galioja tokios pacios savybes kaip ir margin savybei*/
+        padding: 20px;
+
+        /*Norint jog padding ir border didziai butu iskaiciuoti i bendra ploti*/
+        box-sizing: border-box;
+
+      }
+    </style>
+</head>
+<body>
+    <div class="blue">
+    <div class="margin-box"></div>
+    </div>  
+    <p class="margin-bottom-30">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse corrupti, voluptatum optio nobis debitis nulla tempore dolores saepe distinctio voluptas asperiores obcaecati provident molestiae numquam laborum voluptatibus? Saepe, laborum vero.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse corrupti, voluptatum optio nobis debitis nulla tempore dolores saepe distinctio voluptas asperiores obcaecati provident molestiae numquam laborum voluptatibus? Saepe, laborum vero.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse corrupti, voluptatum optio nobis debitis nulla tempore dolores saepe distinctio voluptas asperiores obcaecati provident molestiae numquam laborum voluptatibus? Saepe, laborum vero.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse corrupti, voluptatum optio nobis debitis nulla tempore dolores saepe distinctio voluptas asperiores obcaecati provident molestiae numquam laborum voluptatibus? Saepe, laborum vero.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse corrupti, voluptatum optio nobis debitis nulla tempore dolores saepe distinctio voluptas asperiores obcaecati provident molestiae numquam laborum voluptatibus? Saepe, laborum vero.</p>
+
+    <div class="margin-box"></div>
+    <div class="margin-box-top"></div>
+    
+<div class="margin-variations">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, rerum tenetur? Id nihil dignissimos doloribus deserunt repudiandae rerum, quae esse quasi perspiciatis illum ex, dolores maiores quidem aliquid ad cum.</div>
+    <div class="padding-box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita hic alias deleniti perferendis omnis ducimus ullam sit doloribus aut sunt adipisci, non eligendi labore consectetur debitis beatae numquam, quos dicta!</div>
+
+</body>
+</html>

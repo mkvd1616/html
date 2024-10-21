@@ -1,0 +1,45 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    background-color: #3aa1eb;
+    color: rgb(151, 151, 151);
+    
+}
+p{
+    font-size: x-large;
+    color: aliceblue;
+}
+table {
+    width: 500px;
+    border-collapse: collapse;
+    border: 1px solid rgb(93, 94, 96);
+}
+
+th {
+    height: 30px;
+    width: 50px;
+    background-color: rgb(26, 26, 26);
+    color: rgb(177, 177, 177);
+    font-weight: lighter;
+}
+
+td {
+    height: 50px;
+    vertical-align: center;
+    background-color: aliceblue;
+}
+
+tbody {
+    font-weight: normal;
+}
+
+tr {
+    border-bottom: 1px solid rgb(180, 180, 180);
+}
+
+.grey td {
+    background-color: rgb(208, 208, 208);
+}
+table, td {
+    border: 1px solid rgb(180, 180, 180);
+}
